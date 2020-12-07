@@ -14,3 +14,5 @@ function merge(firstHalf, secondHalf) {
   }
   return sorted.concat(firstHalf).concat(secondHalf)
 }
+
+function mergeSort()
