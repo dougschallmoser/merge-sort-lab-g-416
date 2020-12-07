@@ -12,4 +12,5 @@ function merge(firstHalf, secondHalf) {
       sorted.push(findMinAndRemoveSorted(secondHalf))
     }
   }
+  return sorted
 }
