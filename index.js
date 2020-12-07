@@ -23,6 +23,6 @@ function mergeSort(array) {
   if (array.length < 2) {
     return array 
   } else {
-    sorted = merge()
+    sorted = merge(mergeSort(firstHalf))
   }
 }
