@@ -7,7 +7,7 @@ function merge(firstHalf, secondHalf) {
   let currentMin;
   while (firstHalf.length !== 0 && secondHalf.length !== 0) {
     if (firstHalf[0] < secondHalf[0]) {
-      sorted.push(f)
+      sorted.push(findMinAndRemoveSorted())
     }
   }
 }
